@@ -1,0 +1,170 @@
+*{
+
+margin:0px;
+	padding:0px;
+	font-family: arial;
+}
+
+body{
+	text-align: center;
+}
+a{
+	text-align: none;
+	color: black;
+}
+.contenedor{
+	position:fixed;
+	padding-top: 2em;
+	width:180px;
+	height:100%;
+
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f9fcf7+65,1fc9e0+99 */
+background: #f9fcf7; /* Old browsers */
+background: -moz-linear-gradient(top,  #f9fcf7 65%, #1fc9e0 99%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #f9fcf7 65%,#1fc9e0 99%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #f9fcf7 65%,#1fc9e0 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9fcf7', endColorstr='#1fc9e0',GradientType=0 ); /* IE6-9 */
+
+
+	overflow:hidden;
+	-webkit-transition:width 0.5s cubic-bezier(.61,.01,.37,1);
+	z-index: 20;
+	color: black;
+}
+
+.menu {
+
+background: #f0f9ff; /* Old browsers */
+background: -moz-linear-gradient(top,  #f0f9ff 0%, #cbebff 30%, #a1dbff 59%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #f0f9ff 0%,#cbebff 30%,#a1dbff 59%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #f0f9ff 0%,#cbebff 30%,#a1dbff 59%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f9ff', endColorstr='#a1dbff',GradientType=0 ); /* IE6-9 */
+
+}
+.menu li ul li{
+
+	color: black;
+	display: block;
+	padding: 5px 5px;
+	background:white;
+	opacity: 50%;
+}
+.menu  li{
+color: black;
+}
+.menu  ul{
+display: none;
+}
+.menu :hover{
+color: black;
+cursor: pointer;
+}
+.menu li ul li:hover{
+background:white;
+color:black;
+
+}
+.menu .icono {
+	font-size: 12px;
+
+}
+.menu .icono .izquierda{
+	float: left;
+	
+}
+.menu .icono .derecha{
+	float: right;
+	margin-left: : 10px;
+}
+
+.menu ul li a
+{
+	background:white ;
+	color:black ;
+	
+}
+.menu .active > a{
+	background: black
+	color:white;
+
+}
+.boton:hover {
+background: white;
+color:black;
+opacity: .75;
+}
+
+/* ESTILOS DEL CUERPOOOOOOOOOOOOO*/
+ .cuerpo{
+	
+	position:absolute;
+	right:100px;
+	min-height:300px;
+	left:100px;
+	top:5px;
+
+}
+
+ @media only screen and (max-width: 600px) {
+  .cuerpo{
+	
+	position:absolute;
+	right:0px;
+	min-height:300px;
+	left:0px;
+	top:5px;
+
+}
+
+}
+
+.ocultar {
+	display: none;
+}
+#icono{
+	cursor: pointer;
+	position: absolute;
+	left: 0em;
+	top: 0em;
+	width:30px;
+	height:30px;
+	background: url(../img/menu.png); 
+    z-index: 30;
+}
+.encabezado
+{
+background-image: linear-gradient(to right, #FFFFFF,#B1ECF9, #AAF99C);
+text-align: center;
+padding-top:20px;padding-bottom: 20px;
+padding-left: 900px;
+}
+.footer
+{
+ background-image: linear-gradient(to left, #FFFFFF,#B1ECF9, #AAF99C);
+text-align: center;
+padding-top:20px;padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+.encabezado
+{
+background-image: linear-gradient(to right, #FFFFFF,#B1ECF9, #AAF99C);
+text-align: center;
+padding-top:20px;padding-bottom: 20px;
+padding-left: 0px;
+}
+
+}
+
+.noquieroverteenmobil{
+color: black;
+}
+
+@media only screen and (max-width: 800px) {
+.noquieroverteenmobil{
+	display: none;
+}
+
+}
+
+
